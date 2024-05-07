@@ -1,25 +1,28 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Filter from './components/Filter'
-import NavBar from './components/NavBar'
-import SearchPage from './components/SearchPage'
-import LogIn from './components/LogIn'
+import React from 'react';
+// import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Filter from './components/Filter';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import SearchBar from './components/SearchBar';
+import LogIn from './components/LogIn';
+import Navbar from './components/NavBar';
 
-function App() {
-  
-
+const App = () => {
   return (
-    <>
-     <Header/>
-     <Filter/>
-     <NavBar/>
-     <SearchPage/>
-     <LogIn/>
-     <Footer/>
-    </>
-  )
-}
+    <div>
+      <Header />
+      <Navbar />
+      <Router/>
+      <Switch>
+        <Route exact path="/" component={SearchBar} />
+        <Route path="/login" component={LogIn} />
+      </Switch>
+      <Router/>
+      <Filter />
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
