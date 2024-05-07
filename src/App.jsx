@@ -11,8 +11,10 @@ import Filter from "./components/Filter";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
-import LogIn from "./components/LogIn";
+import LogIn from "./components/Users";
 import Navbar from "./components/NavBar";
+import About from "./components/About";
+import Users from "./components/Users"
 
 export default function App() {
   return (
