@@ -1,10 +1,8 @@
-import React from 'react'
+
 
 function LogIn() {
   return (
-    <div>
-      
-    </div>
+   <h1></h1>
   )
 }
 
