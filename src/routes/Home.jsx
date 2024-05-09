@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
-import Users from "../Users"
-import Header from '../Header';
-import Footer from '../Footer';
-import NavBar from '../NavBar';
-import SearchProperty from '../SearchProrety';
+import Users from "../components/Users"
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import NavBar from '../components/NavBar';
+import SearchProperty from '../components/SearchProrety';
+import SearchBar from '../components/SearchButton';
+
 
 
 
@@ -30,10 +32,12 @@ function Home() {
     <main className='px-10'>
     <Header/>
     <NavBar/>
-	<SearchProperty
+	<SearchProperty className="p-3 flex justify-center"
+
 				setSearchInput={setSearchInput}
 				searchInput={searchInput}
 			/>
+			<SearchBar/>
     <Users/>
  <Footer/>
     </main>
