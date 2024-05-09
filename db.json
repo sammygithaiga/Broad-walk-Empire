@@ -2,183 +2,207 @@
   "properties": [
     {
       "id": 1,
-      "address": "123 Main St",
-      "city": "Anytown",
-      "state": "CA",
+      "title": "Modern Family Home",
+      "description": "Beautiful modern family home in a quiet neighborhood.",
       "price": 350000,
-      "bedrooms": 3,
+      "bedrooms": 4,
       "bathrooms": 2,
-      "square_feet": 1800,
-      "type": "Single Family Home",
-      "image_url": "https://example.com/property1.jpg"
+      "size": 2000,
+      "image": "https://example.com/house1.jpg"
     },
     {
       "id": 2,
-      "address": "456 Elm St",
-      "city": "Otherville",
-      "state": "NY",
-      "price": 420000,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "square_feet": 2200,
-      "type": "Townhouse",
-      "image_url": "https://example.com/property2.jpg"
+      "title": "Spacious Beachfront Villa",
+      "description": "Luxurious beachfront villa with stunning ocean views.",
+      "price": 1500000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": 4000,
+      "image": "https://example.com/house2.jpg"
     },
     {
       "id": 3,
-      "address": "789 Oak St",
-      "city": "Smalltown",
-      "state": "TX",
-      "price": 275000,
+      "title": "Cozy Cottage in the Woods",
+      "description": "Charming cottage nestled in the woods for a peaceful retreat.",
+      "price": 250000,
       "bedrooms": 2,
       "bathrooms": 1,
-      "square_feet": 1500,
-      "type": "Condo",
-      "image_url": "https://example.com/property3.jpg"
+      "size": 1500,
+      "image": "https://example.com/house3.jpg"
     },
     {
       "id": 4,
-      "address": "101 Pine St",
-      "city": "Villageton",
-      "state": "FL",
-      "price": 500000,
-      "bedrooms": 5,
-      "bathrooms": 4,
-      "square_feet": 2800,
-      "type": "Single Family Home",
-      "image_url": "https://example.com/property4.jpg"
+      "title": "Luxury Penthouse Apartment",
+      "description": "Stylish penthouse apartment with panoramic city views.",
+      "price": 1200000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": 3000,
+      "image": "https://example.com/house4.jpg"
     },
     {
       "id": 5,
-      "address": "111 Cedar St",
-      "city": "Mountain City",
-      "state": "CO",
-      "price": 600000,
-      "bedrooms": 6,
-      "bathrooms": 4,
-      "square_feet": 3200,
-      "type": "Single Family Home",
-      "image_url": "https://example.com/property5.jpg"
-    },
-    {
-      "id": 6,
-      "address": "222 Maple St",
-      "city": "Laketown",
-      "state": "WA",
-      "price": 380000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "square_feet": 1900,
-      "type": "Townhouse",
-      "image_url": "https://example.com/property6.jpg"
-    },
-    {
-      "id": 7,
-      "address": "333 Birch St",
-      "city": "Harbortown",
-      "state": "MA",
-      "price": 450000,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "square_feet": 2300,
-      "type": "Condo",
-      "image_url": "https://example.com/property7.jpg"
-    },
-    {
-      "id": 8,
-      "address": "444 Willow St",
-      "city": "Rivertown",
-      "state": "IL",
-      "price": 320000,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "square_feet": 1700,
-      "type": "Single Family Home",
-      "image_url": "https://example.com/property8.jpg"
-    },
-    {
-      "id": 9,
-      "address": "555 Spruce St",
-      "city": "Greenville",
-      "state": "NC",
-      "price": 290000,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "square_feet": 1600,
-      "type": "Condo",
-      "image_url": "https://example.com/property9.jpg"
-    },
-    {
-      "id": 10,
-      "address": "666 Oak St",
-      "city": "Parkville",
-      "state": "MD",
-      "price": 550000,
-      "bedrooms": 5,
-      "bathrooms": 4,
-      "square_feet": 3000,
-      "type": "Single Family Home",
-      "image_url": "https://example.com/property10.jpg"
-    },
-    {
-      "id": 11,
-      "address": "777 Elm St",
-      "city": "Cityville",
-      "state": "OH",
-      "price": 380000,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "square_feet": 2100,
-      "type": "Townhouse",
-      "image_url": "https://example.com/property11.jpg"
-    },
-    {
-      "id": 12,
-      "address": "888 Maple St",
-      "city": "Pleasantville",
-      "state": "PA",
-      "price": 480000,
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "square_feet": 2600,
-      "type": "Single Family Home",
-      "image_url": "https://example.com/property12.jpg"
-    },
-    {
-      "id": 13,
-      "address": "999 Pine St",
-      "city": "Springfield",
-      "state": "MO",
+      "title": "Rustic Mountain Retreat",
+      "description": "Quaint mountain cabin for nature lovers seeking adventure.",
       "price": 300000,
       "bedrooms": 3,
       "bathrooms": 2,
-      "square_feet": 1800,
-      "type": "Condo",
-      "image_url": "https://example.com/property13.jpg"
+      "size": 1800,
+      "image": "https://example.com/house5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Waterfront Mansion",
+      "description": "Grand waterfront mansion with private dock and pool.",
+      "price": 5000000,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "size": 8000,
+      "image": "https://example.com/house6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Charming Tudor Style Home",
+      "description": "Historic Tudor style home with period details and modern upgrades.",
+      "price": 800000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size": 2800,
+      "image": "https://example.com/house7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Sleek Urban Loft",
+      "description": "Contemporary urban loft with industrial chic design.",
+      "price": 600000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": 2000,
+      "image": "https://example.com/house8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Elegant Victorian Mansion",
+      "description": "Magnificent Victorian mansion with ornate architecture and lush gardens.",
+      "price": 3500000,
+      "bedrooms": 7,
+      "bathrooms": 5,
+      "size": 6000,
+      "image": "https://example.com/house9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Secluded Lakefront Cabin",
+      "description": "Secluded cabin on the shores of a tranquil lake for a serene getaway.",
+      "price": 400000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": 1200,
+      "image": "https://example.com/house10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Contemporary City Apartment",
+      "description": "Modern apartment in the heart of the city with stunning skyline views.",
+      "price": 900000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": 1800,
+      "image": "https://example.com/house11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Ranch Style Retreat",
+      "description": "Spacious ranch style home with sprawling gardens and mountain views.",
+      "price": 750000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size": 2500,
+      "image": "https://example.com/house12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Beachfront Bungalow",
+      "description": "Quaint beachfront bungalow steps away from the sand and surf.",
+      "price": 500000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": 1000,
+      "image": "https://example.com/house13.jpg"
     },
     {
       "id": 14,
-      "address": "1010 Cedar St",
-      "city": "Baytown",
-      "state": "TX",
-      "price": 420000,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "square_feet": 2200,
-      "type": "Single Family Home",
-      "image_url": "https://example.com/property14.jpg"
+      "title": "Mountain View Retreat",
+      "description": "Mountain retreat with panoramic views and outdoor living spaces.",
+      "price": 550000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": 2000,
+      "image": "https://example.com/house14.jpg"
     },
     {
       "id": 15,
-      "address": "1111 Birch St",
-      "city": "Lakeview",
-      "state": "CA",
-      "price": 370000,
+      "title": "Chic City Townhouse",
+      "description": "Chic townhouse in a trendy neighborhood with modern amenities.",
+      "price": 700000,
       "bedrooms": 3,
       "bathrooms": 2,
-      "square_feet": 1900,
-      "type": "Townhouse",
-      "image_url": "https://example.com/property15.jpg"
+      "size": 1800,
+      "image": "https://example.com/house15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Countryside Farmhouse",
+      "description": "Quaint farmhouse in the countryside with acres of land and barns.",
+      "price": 950000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "size": 3000,
+      "image": "https://example.com/house16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Modern City Apartment",
+      "description": "Sleek and modern apartment in the heart of the city.",
+      "price": 800000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": 1500,
+      "image": "https://example.com/house17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Lakefront Log Cabin",
+      "description": "Cozy log cabin on the shores of a tranquil lake for a rustic retreat.",
+      "price": 300000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": 1200,
+      "image": "https://example.com/house18.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Luxury Ski Chalet",
+      "description": "Luxurious ski chalet with mountain views and ski-in/ski-out access.",
+      "price": 1800000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": 3500,
+      "image": "https://example.com/house19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Historic Colonial Mansion",
+      "description": "Stately colonial mansion with historic charm and modern conveniences.",
+      "price": 2500000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "size": 5000,
+      "image": "https://example.com/house20.jpg"
     }
   ]
 }
+
+
+
+  
