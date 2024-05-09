@@ -1,6 +1,7 @@
 {
   "property": [
     {
+<<<<<<< HEAD
       "id": "1",
       "name": "Frontera Apartments",
       "price": 650,
@@ -322,3 +323,210 @@
   }
   ]
 }
+=======
+      "id": 1,
+      "title": "Modern Family Home",
+      "description": "Beautiful modern family home in a quiet neighborhood.",
+      "price": 350000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "size": 2000,
+      "image": "https://example.com/house1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Spacious Beachfront Villa",
+      "description": "Luxurious beachfront villa with stunning ocean views.",
+      "price": 1500000,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": 4000,
+      "image": "https://example.com/house2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Cozy Cottage in the Woods",
+      "description": "Charming cottage nestled in the woods for a peaceful retreat.",
+      "price": 250000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": 1500,
+      "image": "https://example.com/house3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Luxury Penthouse Apartment",
+      "description": "Stylish penthouse apartment with panoramic city views.",
+      "price": 1200000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": 3000,
+      "image": "https://example.com/house4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Rustic Mountain Retreat",
+      "description": "Quaint mountain cabin for nature lovers seeking adventure.",
+      "price": 300000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": 1800,
+      "image": "https://example.com/house5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Waterfront Mansion",
+      "description": "Grand waterfront mansion with private dock and pool.",
+      "price": 5000000,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "size": 8000,
+      "image": "https://example.com/house6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Charming Tudor Style Home",
+      "description": "Historic Tudor style home with period details and modern upgrades.",
+      "price": 800000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size": 2800,
+      "image": "https://example.com/house7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Sleek Urban Loft",
+      "description": "Contemporary urban loft with industrial chic design.",
+      "price": 600000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": 2000,
+      "image": "https://example.com/house8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Elegant Victorian Mansion",
+      "description": "Magnificent Victorian mansion with ornate architecture and lush gardens.",
+      "price": 3500000,
+      "bedrooms": 7,
+      "bathrooms": 5,
+      "size": 6000,
+      "image": "https://example.com/house9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Secluded Lakefront Cabin",
+      "description": "Secluded cabin on the shores of a tranquil lake for a serene getaway.",
+      "price": 400000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": 1200,
+      "image": "https://example.com/house10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Contemporary City Apartment",
+      "description": "Modern apartment in the heart of the city with stunning skyline views.",
+      "price": 900000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": 1800,
+      "image": "https://example.com/house11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Ranch Style Retreat",
+      "description": "Spacious ranch style home with sprawling gardens and mountain views.",
+      "price": 750000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size": 2500,
+      "image": "https://example.com/house12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Beachfront Bungalow",
+      "description": "Quaint beachfront bungalow steps away from the sand and surf.",
+      "price": 500000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": 1000,
+      "image": "https://example.com/house13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Mountain View Retreat",
+      "description": "Mountain retreat with panoramic views and outdoor living spaces.",
+      "price": 550000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": 2000,
+      "image": "https://example.com/house14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Chic City Townhouse",
+      "description": "Chic townhouse in a trendy neighborhood with modern amenities.",
+      "price": 700000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": 1800,
+      "image": "https://example.com/house15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Countryside Farmhouse",
+      "description": "Quaint farmhouse in the countryside with acres of land and barns.",
+      "price": 950000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "size": 3000,
+      "image": "https://example.com/house16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Modern City Apartment",
+      "description": "Sleek and modern apartment in the heart of the city.",
+      "price": 800000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": 1500,
+      "image": "https://example.com/house17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Lakefront Log Cabin",
+      "description": "Cozy log cabin on the shores of a tranquil lake for a rustic retreat.",
+      "price": 300000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": 1200,
+      "image": "https://example.com/house18.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Luxury Ski Chalet",
+      "description": "Luxurious ski chalet with mountain views and ski-in/ski-out access.",
+      "price": 1800000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": 3500,
+      "image": "https://example.com/house19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Historic Colonial Mansion",
+      "description": "Stately colonial mansion with historic charm and modern conveniences.",
+      "price": 2500000,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "size": 5000,
+      "image": "https://example.com/house20.jpg"
+    }
+  ]
+}
+
+
+
+  
+>>>>>>> 10fc0e38e126f7542f2ee7794a3b260eb3e720d5

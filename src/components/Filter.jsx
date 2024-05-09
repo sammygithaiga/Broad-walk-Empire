@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from "react"
 
 
@@ -41,6 +42,9 @@ function Filter({ addDetails }) {
     setCategory('')
       }
     };
+=======
+
+>>>>>>> 10fc0e38e126f7542f2ee7794a3b260eb3e720d5
 
   return (
     <form className="form" onSubmit={handleSubmit}>

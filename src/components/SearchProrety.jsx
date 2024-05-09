@@ -20,6 +20,10 @@ const SearchBar = ({ onSearch }) => {
     onSearch(searchParams);
   };
 
+<<<<<<< HEAD:src/components/SearchBar.jsx
+=======
+function SearchProrety() {
+>>>>>>> 10fc0e38e126f7542f2ee7794a3b260eb3e720d5:src/components/SearchProrety.jsx
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" name="name" placeholder="name" value={searchParams.name} onChange={handleChange} />
@@ -32,4 +36,8 @@ const SearchBar = ({ onSearch }) => {
   );
 };
 
+<<<<<<< HEAD:src/components/SearchBar.jsx
 export default SearchBar;
+=======
+export default SearchProrety
+>>>>>>> 10fc0e38e126f7542f2ee7794a3b260eb3e720d5:src/components/SearchProrety.jsx
