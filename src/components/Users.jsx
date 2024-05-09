@@ -1,9 +1,9 @@
 
 
-function LogIn() {
+function Users() {
   return (
    <h1></h1>
   )
 }
 
-export default LogIn;
+export default Users;
