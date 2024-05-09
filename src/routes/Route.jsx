@@ -6,7 +6,7 @@ import PropertyDetails from "./PropertyDetails";
 const router = createBrowserRouter([
     {
          path: "/",
-    element: <Home classname="p-3 font-bold text-5xl"/>,
+    element: <Home />,
 },
 {
     path: "/about",
