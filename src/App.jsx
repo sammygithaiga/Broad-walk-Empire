@@ -2,10 +2,10 @@
 
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
+  createBrowserRouter as Router,
+  //Switch,
   Route,
-  Link
+  //Link
 } from "react-router-dom";
 import Filter from "./components/Filter";
 import Footer from "./components/Footer";
