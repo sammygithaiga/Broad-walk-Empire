@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react';
-import Users from "../components/Users"
-
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 
@@ -30,11 +28,8 @@ function Home() {
   ;
   return (
 	    <NavBar/>
-	   
-	 
 	  <main>
 	   <SearchBar />
-	    <Users/>
 	    <Footer/>
 	  </main>
 	
