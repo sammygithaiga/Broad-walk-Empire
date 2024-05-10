@@ -31,15 +31,7 @@ function Home() {
   return (
 	    <NavBar/>
 	   
-	   
-			 <ul>
-        {filteredProperties.map((property) => (
-          <li key={property.id}>
-            <h2>{property.name}</h2>
-            <p>{property.description}</p>
-          </li>
-        ))}
-      </ul>/>
+	 
 	  <main>
 	   <SearchBar />
 	    <Users/>
