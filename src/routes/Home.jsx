@@ -37,11 +37,7 @@ function Home() {
     <main className='px-10'>
 		<Navbar/>
     <Header/>
-	<SearchProperty className="p-3 flex justify-center"
-
-				setSearchInput={setSearchInput}
-				searchInput={searchInput}
-			/>
+	<SearchPropety/>
 			 
 			<SearchBar/>
     <Users/>
