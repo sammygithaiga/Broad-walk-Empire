@@ -3,7 +3,7 @@ import Users from "../components/Users"
 
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
-import SearchProperty from '../components/SearchProrety';
+
 import SearchBar from '../components/SearchButton';
 
 
@@ -31,7 +31,7 @@ function Home() {
   return (
 	    <NavBar/>
 	   
-	    <SearchProrety/>
+	   
 			 <ul>
         {filteredProperties.map((property) => (
           <li key={property.id}>
