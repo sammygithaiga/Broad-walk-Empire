@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
-import PropertyDetails from './PropertyDetails';
+
 import SearchBar from '../components/SearchButton';
 import "../index.css"
 
@@ -32,23 +32,11 @@ function Home() {
   return (
     <main className='px-10'>
 		<Navbar/>
-    
-	<SearchProperty className="p-3 flex justify-center"
-
-				setSearchInput={setSearchInput}
-				searchInput={searchInput}
-			/>
-			 	 <ul>
-        {filteredProperties.map((property) => (
-          <li key={property.id}>
-            <h2>{property.name}</h2>
-            <p>{property.description}</p>
-          </li>
-        ))}
-      </ul>/
+    <Header/>
+	
+			 
 			<SearchBar/>
-      <SeachButton/>  
-    <PropertyDetails/>
+   
 	
  <Footer/>
     </main>
