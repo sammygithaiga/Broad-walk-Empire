@@ -2,48 +2,7 @@
 import { useEffect, useState } from "react"
 
 
-function Filter({ addDetails }) {
-
-    const [name, setName] = useState('')
-    const [location, setLocation] = useState('')
-    const [price, setPrice] = useState(0)
-    const [bedrooms, setBedrooms] = useState(0)
-    const [category, setCategory] = useState('')
-
-    useEffect(() => {
-        fetch(`http://localhost:3000/properties`)
-        .then(res => res.json())
-        .then(data => console.log(data))
-    })
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-    
-
-    if(!name && !location && !price && !bedrooms && !category) {
-        alert('Please fill out all fields');
-        return;
-    }
-
-    const newDetails = {
-        name,
-        location,
-        price: parseFloat(price),
-        bedroom,
-        category,
-      };
-
-    addDetails(newDetails);
-    // Clear form fields
-    setName('');
-    setLocation('');
-    setPrice('');
-    setBedrooms('');
-    setCategory('')
-      }
-    };
-
-
+function Filter() {
   return (
     <form className="form" onSubmit={handleSubmit}>
         <label>
@@ -93,6 +52,6 @@ function Filter({ addDetails }) {
         <button className="bg-blue-400">Submit</button>
     </form>
  )
-
+}
 
 export default Filter;

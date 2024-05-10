@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react';
-import Users from "../components/Users"
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
-// import SearchProperty from '../components/SearchProrety';
+import PropertyDetails from './PropertyDetails';
 import SearchBar from '../components/SearchButton';
 import "../index.css"
 
@@ -30,21 +28,27 @@ function Home() {
 
 
 
-	// 	const filteredPlants = properties.filter((property) =>
-	// 	properties.name.toLowerCase().includes(searchInput.toLowerCase())
-	// );
+	
   return (
     <main className='px-10'>
 		<Navbar/>
-    <Header/>
+    
 	<SearchProperty className="p-3 flex justify-center"
 
 				setSearchInput={setSearchInput}
 				searchInput={searchInput}
 			/>
-			 
+			 	 <ul>
+        {filteredProperties.map((property) => (
+          <li key={property.id}>
+            <h2>{property.name}</h2>
+            <p>{property.description}</p>
+          </li>
+        ))}
+      </ul>/
 			<SearchBar/>
-    <Users/>
+      <SeachButton/>  
+    <PropertyDetails/>
 	
  <Footer/>
     </main>
