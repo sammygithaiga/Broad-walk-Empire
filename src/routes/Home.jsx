@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
-
 import SearchBar from '../components/SearchButton';
 import "../index.css"
 
@@ -31,13 +30,9 @@ function Home() {
 	
   return (
     <main className='px-10'>
-		<Navbar/>
-    <Header/>
-	
-			 
-			<SearchBar/>
-   
-	
+<Navbar/>
+ <Header/>		 
+<SearchBar/>
  <Footer/>
     </main>
   )
