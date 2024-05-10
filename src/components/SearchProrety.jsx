@@ -1,7 +1,7 @@
 // PropertySearchForm.jsx
 import React, { useState } from 'react';
 
-const SearchBar = ({ onSearch }) => {
+const SearchProrety = ({ onSearch }) => {
   const [searchParams, setSearchParams] = useState({
     name: '',
     location: '',
@@ -20,10 +20,6 @@ const SearchBar = ({ onSearch }) => {
     onSearch(searchParams);
   };
 
-<<<<<<< HEAD:src/components/SearchBar.jsx
-=======
-function SearchProrety() {
->>>>>>> 10fc0e38e126f7542f2ee7794a3b260eb3e720d5:src/components/SearchProrety.jsx
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" name="name" placeholder="name" value={searchParams.name} onChange={handleChange} />
@@ -36,8 +32,4 @@ function SearchProrety() {
   );
 };
 
-<<<<<<< HEAD:src/components/SearchBar.jsx
-export default SearchBar;
-=======
-export default SearchProrety
->>>>>>> 10fc0e38e126f7542f2ee7794a3b260eb3e720d5:src/components/SearchProrety.jsx
+export default SearchProrety;
