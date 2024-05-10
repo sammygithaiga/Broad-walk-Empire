@@ -3,7 +3,7 @@ import Users from "../components/Users"
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
- import SearchProperty from '../components/SearchProrety';
+
 import SearchBar from '../components/SearchButton';
 import "../index.css"
 
@@ -36,7 +36,6 @@ function Home() {
     <Header/>
 	<SearchPropety/>
 			 
-			<SearchBar/>
     <Users/>
 	
  <Footer/>
