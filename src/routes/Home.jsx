@@ -3,8 +3,9 @@ import Users from "../components/Users"
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
-import SearchProperty from '../components/SearchProrety';
-import SearchBar from '../components/SearchButton';
+import SearchProrety from '../components/SearchProrety';
+import SearchButton from '../components/SearchButton';
+import Filter from '../components/Filter';
 
 
 
@@ -28,18 +29,11 @@ function Home() {
  const filteredProperties = properties.filter((property) =>
     property.name)
   ;
-
-
-
-
-	// 	const filteredPlants = properties.filter((property) =>
-	// 	properties.name.toLowerCase().includes(searchInput.toLowerCase())
-	// );
   return (
-    <main className='px-10'>
-		<NavBar/>
-    <Header/>
-	<SearchProperty className="p-3 flex justify-center"
+	    <NavBar/>
+	    <Header/>
+	  <Filter />
+	    <SearchProrety lassName="p-3 flex justify-center"
 
 				setSearchInput={setSearchInput}
 				searchInput={searchInput}
@@ -51,12 +45,10 @@ function Home() {
             <p>{property.description}</p>
           </li>
         ))}
-      </ul>
-			<SearchBar/>
-    <Users/>
-	
- <Footer/>
-    </main>
+      </ul>/>
+	    <SearchButton />
+	    <Users/>
+	    <Footer/>
   )
 }
 
