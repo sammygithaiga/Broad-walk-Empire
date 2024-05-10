@@ -31,7 +31,7 @@ function Home() {
   return (
 	    <NavBar/>
 	   
-	    <SearchProrety lassName="p-3 flex justify-center"
+	    <SearchProrety className="p-3 flex justify-center"
 
 				setSearchInput={setSearchInput}
 				searchInput={searchInput}
