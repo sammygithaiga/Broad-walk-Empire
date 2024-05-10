@@ -31,11 +31,7 @@ function Home() {
   return (
 	    <NavBar/>
 	   
-	    <SearchProrety className="p-3 flex justify-center"
-
-				setSearchInput={setSearchInput}
-				searchInput={searchInput}
-			/>
+	    <SearchProrety/>
 			 <ul>
         {filteredProperties.map((property) => (
           <li key={property.id}>
