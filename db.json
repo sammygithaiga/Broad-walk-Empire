@@ -1,3 +1,5 @@
+
+
 {
   "property": [
     {
@@ -52,19 +54,64 @@
       "bedrooms": 1
     },
     {
-      "id": 20,
-      "title": "Historic Colonial Mansion",
-      "description": "Stately colonial mansion with historic charm and modern conveniences.",
-      "price": 2500000,
-      "bedrooms": 6,
-      "bathrooms": 5,
-      "size": 5000,
-      "image": "https://example.com/house20.jpg"
-    }
+      "id": "6",
+      "name": " Oasis Apartments",
+      "price": 450,
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTpi-W9TtxCDp_GKrwmSLJToA8jFDTdzobSCJataMeFieRr1JAP",
+      "description": "Quaint 2-bedroom with balcony.",
+      "category": "Apartments",
+      "location": "New York",
+      "bedrooms": 2
+    },
+    {
+      "id": "7",
+      "name": " Serenity Apartments",
+      "price": 555,
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPFWa1UDfaWl2Ntwi0FPua4JcHkU6PR9t4rHnNIsmLPIfxPeA4",
+      "description": "Stylish 3-bedroom with skyline views.",
+      "category": "Apartments",
+      "location": "OysterBay",
+      "bedrooms": 3
+    },
+    {
+      "id": "8",
+      "name": "Legacy Apartments",
+      "price": 450,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEO7FDua6uiF9AUz08E6wTfH2E1FAwkbrx8Nzcq9zi1DdYtG2e",
+      "description": "Luxury 2-bedroom with concierge service.",
+      "category": "Apartments",
+      "location": "Greece",
+      "bedrooms": 2
+    },
+    {
+      "id": "9",
+      "name": "Waterfront Villa",
+      "price": 1200,
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlOAir21mClpkrKbPbYgss5wL8L3Bjs9eeMxANtDEOhv3pTqpM",
+      "description": "Sunny 2-bedroom with park views.",
+      "category": "Villas",
+      "location": "Yonkers",
+      "bedrooms": 2
+    },
+    {
+      "id": "10",
+      "name": "Mayfair Villa",
+      "price": 1250,
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXyUwiHQNn7WDy3M0_GUZdq_bKhWyTm3UpdMmNDxFPJnob187z",
+      "description": "Seaside villa with panoramic ocean views.",
+      "category": "Villas",
+      "location": "Brookhaven",
+      "bedrooms": 4
+    },
+    {
+      "id":"32",
+      "name": " Pinnacle Tower",
+      "price": 4200.00,
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTgG7WXCxGWJvTuYFdsswjNmr17BE7iqElmkP3WPGg8TmLk6_qm",
+      "description": "Working spaces",
+      "category": "Commercials",
+      "location":"Greece",
+      "floor":"12th"
+  }
   ]
 }
-
-
-
-  
->>>>>>> 10fc0e38e126f7542f2ee7794a3b260eb3e720d5
