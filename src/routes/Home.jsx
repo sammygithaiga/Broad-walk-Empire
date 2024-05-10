@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Users from "../components/Users"
-import Header from '../components/Header';
+
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import SearchProperty from '../components/SearchProrety';
@@ -30,7 +30,7 @@ function Home() {
   ;
   return (
 	    <NavBar/>
-	    <Header/>
+	   
 	    <SearchProrety lassName="p-3 flex justify-center"
 
 				setSearchInput={setSearchInput}
