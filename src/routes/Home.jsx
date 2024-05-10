@@ -3,7 +3,7 @@ import Users from "../components/Users"
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
-// import SearchProperty from '../components/SearchProrety';
+ import SearchProperty from '../components/SearchProrety';
 import SearchBar from '../components/SearchButton';
 import "../index.css"
 
@@ -30,9 +30,6 @@ function Home() {
 
 
 
-	// 	const filteredPlants = properties.filter((property) =>
-	// 	properties.name.toLowerCase().includes(searchInput.toLowerCase())
-	// );
   return (
     <main className='px-10'>
 		<Navbar/>
