@@ -5,7 +5,9 @@ import Filter from './components/Filter';
 
 function Important() {
   return(
-    
+    <SearchProrety/>
+    <SearchButton/>
+    <Filter/>
   )
 }
 export default Important;
