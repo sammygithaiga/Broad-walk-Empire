@@ -1,7 +1,6 @@
-// PropertySearchForm.jsx
 import React, { useState } from 'react';
 
-const SearchProrety = ({ onSearch }) => {
+const SearchProperty = ({ onSearch }) => {
   const [searchParams, setSearchParams] = useState({
     name: '',
     location: '',
@@ -15,9 +14,18 @@ const SearchProrety = ({ onSearch }) => {
     setSearchParams({ ...searchParams, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    onSearch(searchParams);
+    try {
+      const response = await fetch(`http://localhost:3000/property?name=${searchParams.name}&location=${searchParams.location}&price=${searchParams.price}&bedrooms=${searchParams.bedrooms}&category=${searchParams.category}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch data');
+      }
+      const properties = await response.json();
+      onSearch(properties);
+    } catch (error) {
+      console.error('Error searching for properties:', error);
+    }
   };
 
   return (
@@ -32,4 +40,4 @@ const SearchProrety = ({ onSearch }) => {
   );
 };
 
-export default SearchProrety;
+export default SearchProperty;

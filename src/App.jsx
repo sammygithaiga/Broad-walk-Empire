@@ -11,9 +11,8 @@ import Filter from "./components/Filter";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
-import About from "./components/About";
-import Users from "./components/Users"; 
-import Navbar from "./components/NavBar";
+import About from "./components/About"; 
+import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage"
 
 export default function App() {
@@ -21,17 +20,20 @@ export default function App() {
     <Router>
       <div>
         <Header />
-        <Navbar />
+        <NavBar />
 
         <Switch>
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/users"> 
+          <Route path="/home"> 
             <Users />
           </Route>
           <Route path="/">
             <HomePage />
+          </Route>
+          <Route path="/propertyDetails"> 
+            <Users />
           </Route>
         </Switch>
 
@@ -42,6 +44,3 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <SearchBar />;
-}
