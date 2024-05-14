@@ -1,11 +1,14 @@
-x
-import NavBar from '../components/NavBar';
+import Filter from '../components/Filter';
+import PropertyDetails from './PropertyDetails';
 
 
 
 function Home() {
 	 return (
-	    <NavBar/>
+		<>
+		<PropertyDetails />
+		<Filter />
+		</>
 	
 	
   )
