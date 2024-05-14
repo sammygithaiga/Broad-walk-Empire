@@ -40,4 +40,4 @@ We welcome feedback and suggestions to improve our platform. Please feel free to
 
 Thank you for choosing Group 5 Real Estate Finder! We hope you find your dream property with us.
 ## Live video link
-https://drive.google.com/file/d/1GyVLrU8Bk9bRBJySSlIXOj_i58CgMOgJ/view?usp=sharing
+https://drive.google.com/file/d/1cLbAzlKBt_QYSjqt0qB-wVcOeVyekaWw/view?usp=sharing
