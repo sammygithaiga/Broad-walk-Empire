@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../index.css'
+import NavBar from './NavBar';
 
 const SearchProperty = () => {
   const [searchParams, setSearchParams] = useState({
@@ -32,8 +33,10 @@ const SearchProperty = () => {
   };
 
   return (
-    <div className="search-property-container"> {/* Add container class */}
-      <form onSubmit={handleSubmit} className="search-form"> {/* Add form and form class */}
+    <>
+    <NavBar />
+    <div className="search-property-container">
+      <form onSubmit={handleSubmit} className="search-form"> 
         <input type="text" name="name" placeholder="Name" value={searchParams.name} onChange={handleChange} className="input-field" />
         <input type="text" name="location" placeholder="Location" value={searchParams.location} onChange={handleChange} className="input-field" />
         <input type="number" name="price" placeholder="Budget" value={searchParams.price} onChange={handleChange} className="input-field" />
@@ -41,13 +44,13 @@ const SearchProperty = () => {
         <input type="text" name="category" placeholder="Category" value={searchParams.category} onChange={handleChange} className="input-field" />
         <button type="submit" className="submit-btn">Search</button>
       </form>
-      <div className="search-results"> {/* Add search results div and class */}
-        <h2 className="search-results-title">Search Results</h2> {/* Add search results title class */}
-        <ul className="property-list"> {/* Add property list class */}
+      <div className="search-results"> 
+        <h2 className="search-results-title">Search Results</h2> 
+        <ul className="property-list"> 
           {searchResults.map((property, index) => (
-            <li key={index} className="property-item"> {/* Add property item class */}
+            <li key={index} className="property-item"> 
               <h3 className="property-name">{property.name}</h3>
-              <img src={property.image} alt={property.name} className="property-image" /> {/* Add image tag */}
+              <img src={property.image} alt={property.name} className="property-image" /> 
               <p className="property-info">Location: {property.location}</p>
               <p className="property-info">Price: {property.price}</p>
               <p className="property-info">Bedrooms: {property.bedrooms}</p>
@@ -57,6 +60,7 @@ const SearchProperty = () => {
         </ul>
       </div>
     </div>
+    </>
   );
 };
 

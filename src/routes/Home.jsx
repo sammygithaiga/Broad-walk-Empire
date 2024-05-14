@@ -6,8 +6,8 @@ import PropertyDetails from './PropertyDetails';
 function Home() {
 	 return (
 		<>
-		<PropertyDetails />
 		<Filter />
+		<PropertyDetails />
 		</>
 	
 	
