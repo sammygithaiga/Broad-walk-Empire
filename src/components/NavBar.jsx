@@ -1,16 +1,20 @@
 import { Link, NavLink } from 'react-router-dom';
-import '../index.css'
 
 const Navbar = () => {
   return (
-    <nav className='nav'> 
-    <NavLink className='login' to="/">LogIn</NavLink>
-
-        <NavLink to="/Home">Home</NavLink>
-
-        <NavLink to="/about">About</NavLink>
-
-      
+    <nav className='bg-gray-800 text-white py-4'> 
+      <ul className='flex justify-between px-8'>
+        <li>
+          <NavLink to="/" className='mr-4' activeClassName='font-bold'>LogIn</NavLink>
+        </li>
+        <li>
+          <NavLink to="/Home" className='mr-4' activeClassName='font-bold'>Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about" className='mr-4' activeClassName='font-bold'>About</NavLink>
+        </li>
+        
+      </ul>
     </nav>
   );
 };
