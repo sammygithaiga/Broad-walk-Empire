@@ -6,7 +6,7 @@ const PropertyDetails = () => {
   const [selectedProperty, setSelectedProperty] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/property')
+    fetch('https://my-json-server.typicode.com/sammygithaiga/Broad-walk-Empire/property')
       .then(response => response.json())
       .then(data => setProperties(data))
       .catch(error => console.error('Error fetching data:', error));
