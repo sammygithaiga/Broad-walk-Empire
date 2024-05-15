@@ -21,7 +21,7 @@ const SearchProperty = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`https://my-json-server.typicode.com/sammygithaiga/Broad-walk-Empire/property?name=${searchParams.name}&location=${searchParams.location}&price=${searchParams.price}&bedrooms=${searchParams.bedrooms}&category=${searchParams.category}`);
+      const response = await fetch(`https://my-json-server.typicode.com/sammygithaiga/Broad-walk-Empire/property?`);
       if (!response.ok) {
         throw new Error('Failed to fetch data');
       }
